@@ -1,0 +1,60 @@
+h1 {
+    font-family: "Goudy Bookletter 1911", sans-serif;
+}
+
+p, ul, li {
+    font-size: large;
+}
+
+.headerBox {
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.navBar {
+    position: sticky;
+    top: 0;
+    background-color: silver;
+}
+
+.links {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 5px;
+}
+
+#linkHeader {
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-decoration: underline;
+}
+
+#onTab {
+    background-color: white;
+    padding: 10px;
+}
+
+
+@media(min-width: 900px) {
+    img {
+        border: black 10px solid;
+    }
+
+    .links {
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+}
+
+@media(max-width: 900px) {
+    #onTab {
+        padding: 0;
+    }
+}
+
+

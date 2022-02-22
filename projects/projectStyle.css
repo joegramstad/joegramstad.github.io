@@ -1,0 +1,49 @@
+
+.projectFlex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.logo {
+    height: 200px;
+    width: 200px;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+h2 {
+    margin-left: 40%;
+}
+
+#projectOneBox {
+    width: 33%;
+}
+
+#projectTwoBox {
+    width: 33%;
+}
+
+#projectThreeBox {
+    width: 33%;
+}
+
+@media(max-width: 900px) {
+    .projectFlex {
+        flex-direction: column;
+    }
+
+    #projectOneBox {
+        width: 100%;
+    }
+
+    #projectTwoBox {
+        width: 100%;
+    }
+
+    #projectThreeBox {
+        width: 100%;
+    }
+}
